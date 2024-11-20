@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e8eef7; /* Açık lacivert tonu */
+    color: #1d3557; /* Lacivert */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(29, 53, 87, 0.9); /* Lacivert tonunda şeffaf arka plan */
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+header nav a {
+    color: #a8dadc; /* Açık mavi ton */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #457b9d; /* Orta tonlu mavi */
+}
+
+.hero {
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f1faee; /* Beyazımsı açık ton */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    padding: 15px 20px;
+    background: #1d3557; /* Lacivert */
+    color: #ffffff;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #457b9d; /* Orta tonlu mavi */
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.skills-section, .portfolio-section, .contact-section {
+    background: #e8eef7; /* Açık lacivert tonu */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background: #a8dadc; /* Açık mavi */
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d3557; /* Lacivert */
+}
+
+.contact-item:hover {
+    background: #457b9d; /* Orta tonlu mavi */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1d3557; /* Lacivert */
+    color: #ffffff;
+}
+
+/* Navigasyon stil */
+nav {
+    display: flex;
+    align-items: center;           /* Dikey merkezleme */
+    justify-content: space-between;/* İki taraf arasında boşluk */
+ 
+    padding: 10px 20px;            /* İç boşluklar */
+}
+
+/* Sol taraftaki linklerin stili */
+.nav-left a {
+    margin-right: 15px;            /* Linkler arası boşluk */
+    text-decoration: none;         /* Alt çizgi yok */
+    color: #fdf8f8;                   /* Link rengi */
+}
+
+/* Sağ taraftaki yazının stili */
+.nav-right span {
+    font-size: 16px;               /* Yazı boyutu */
+    color: #fdf8f8;                   /* Yazı rengi */
+    padding: 50px;
+}
